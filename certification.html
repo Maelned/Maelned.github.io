@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Meyawo landing page.">
     <meta name="author" content="Devcrud">
-    <title>Mon mémoire de master</title>
+    <title>Certification - Data Scientist</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
@@ -18,7 +18,7 @@
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">Maël Nedellec</a>
+            <a class="logo" href="index.html"><i class="ti-home"></i></a>
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="index.html">Home</a>
@@ -45,88 +45,112 @@
     </nav><!-- End of Page Navbar -->
 
     <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
+    <header id="home" class="header2">
         <div class="header-content container">
             <h1 class="header-title">
-                <span class="down">Mémoire de master</span>
+                <span class="down">Certifications DataCamp</span>
             </h1>
-            <p class="header-subtitle">Sécurité des Algorithmes de Deep Learning dans le milieu de la santé</p>
-
-            <button class="btn btn-primary">Découvrez ce projet !</button>
+            <p class="header-subtitle">Data Scientist Professional & Associate</p>
         </div>
     </header><!-- end of page header -->
 
-    <!-- about section -->
-    <section class="section pt-0" id="about">
+    <section class="section" id="about">
         <!-- container -->
-        <div class="container text-center">
+        <div class="container text-center custom_page">
             <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="images/me.jpg" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Qui suis-je ?</p>
-                    <h2 class="section-title mb-3">A propos de moi</h2>
-                    <p>
-                        
-                    </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Télécharger le mémoire</button>
-                </div>
+            <div class="custom_page">
+                <p>
+                    J'ai obtenu 2 certifications sur le site Datacamp: Data Scientist Associate puis Data Scientist Professional.<br>
+                    Lors de ces 2 examens j'ai dû répondre à un besoin métier spécifique par certification, travail à réaliser dans un temps imparti :  
+                </p>
+                <ul>
+                    <li>Savoir quel article mettre en avant sur un site pour maximiser le traffic</li>
+                    <li>Identifier le nombre de personnes qui sont susceptibles d'intégrer un cursus universitaire afin de dimensionner les effectifs</li>
+                </ul>
+                <p>
+                    Pour ce faire voici les différentes étapes du projet :
+                </p>
+                <ul>
+                    <li>Analyser et valider les données : remplacer les valeurs manquantes</li>
+                    <li>Visualiser les données : scatterplot, boxplot, corrélation entre les variables</li>
+                    <li>Implémenter des modèles de Machine Learning</li>
+                        <ul>
+                            <li>Savoir si un article va générer de bons traffics : Classification</li>
+                            <ul><li>Logistic Regression</li>
+                            <li>XGBoost Classifier</li></ul>
+                            <li>Prédire le nombre de personnes qui vont intégrer le cursus : Régression</li>
+                            <ul><li>Linear Regression</li>
+                            <li>RandomForest</li></ul>
+                        </ul>
+                    <li>Analyser les performances de chaque modèle avec les bonnes métriques : RMSE pour la régression et précision pour la classification</li>
+                    <li>Conclure sur le meilleur modèle suivant le problème et analyser les besoins métiers</li>
+                    <li>Fournir des recommendations sur la suite des implémentations et comment maintenir le modèle de ML efficace</li>
+                    <li>Présenter les résultats avec un diaporama</li>
+                </ul>
+                <a  target="_blank" href="https://github.com/Maelned/Certifications_DataCamp">
+                    <button class="btn-rounded btn btn-outline-primary mt-4">Accéder au code</button>
+                </a>
+                
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
+    <!-- section -->
+    <section class="section-sm bg-custom ">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                    <h6 class="title text-light">Résumé de mes réalisations</h6>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+  
 
     <!-- service section -->
-    <section class="section" id="service">
+    <section class="section pt-3" id="service">
         <div class="container text-center">
-            <p class="section-subtitle">Qu'est ce que je fais ?</p>
-            <h6 class="section-title mb-6">Mes compétences</h6>
-            <!-- row -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="images/python_icon.jpg"
+                            <img src="assets/icons/data-validation.png"
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
-                            <h6 class="title">Recherches universitaires</h6>
-                            <p class="subtitle">Lecture de papiers de recherche sur l'IA dans la santé et également de cybersécurité dans l'IA</p>
+                            <h6 class="title">Validation des données</h6>
+                            <p class="subtitle">Remplacer ou supprimer les valeurs nulles, Harmoniser le nommage des categories</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="images/ai_icon.png"
+                            <img src="assets/icons/data-visualization.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Visualisation des données</h6>
+                            <p class="subtitle">Visualiser le jeu de données afin d'effectuer une première analyse</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/icons/ai_icon.png"
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
                             <h6 class="title">Machine Learning</h6>
-                            <p class="subtitle">Implémenter divers modèles : XGBoost, Logistic/Linear Regression, RandomForest, CNN.</p>
+                            <p class="subtitle">Implémenter différentes modèles de ML : XGBoost, RandomForest, Linear Regression</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="images/deployment_icon.png"
+                            <img src="assets/icons/presentation.png"
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
-                            <h6 class="title">Mise en Production</h6>
-                            <p class="subtitle">Outils de développements opérationnels : GitLab CI/CD, Docker, test unitaires. Applicable aux modèles de ML</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Autonomie</h6>
-                            <p class="subtitle">Je me suis principalement formé à la Data Science et au Machine Learning en autonomie.</p>
+                            <h6 class="title">Présentation</h6>
+                            <p class="subtitle">Réaliser un diaporama afin de présenter les résultats de mes développements</p>
                         </div>
                     </div>
                 </div>

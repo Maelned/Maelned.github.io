@@ -35,6 +35,7 @@
   --danger: #ec185d;
   --light: #f8f9fa;
   --dark: #212529;
+  --myblue: #9db5da;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -7144,6 +7145,7 @@ a.close.disabled {
   background-color: #695aa6 !important;
 }
 
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -7152,6 +7154,11 @@ button.bg-primary:focus {
 
 .bg-secondary {
   background-color: #393e46 !important;
+}
+
+.bg-custom {
+  background-image: url(../imgs/header_test3.jpg);
+  height: 2vh;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9064,6 +9071,7 @@ button.bg-dark:focus {
 .pt-3,
 .py-3 {
   padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pr-3,
@@ -10687,6 +10695,14 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.custom_page {
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
@@ -11668,7 +11684,7 @@ pre .code {
 }
 
 .custom-navbar .hamburger {
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 5px;
 }
 
@@ -12049,6 +12065,27 @@ pre .code {
   position: relative;
   height: 100vh;
   min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header2 {
+  position: relative;
+  height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
